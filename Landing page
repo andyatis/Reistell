@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to TFD page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <style>
+      .container {
+        width: 393px;
+        height: 852px;
+        position: relative;
+        background: white;
+      }
+       .password {
+        width: 95px;
+        height: 26px;
+        position: absolute;
+        left: 80px;
+        top: 450px;
+        color: #868686;
+        font-size: 13px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      .username {
+        width: 254.23px;
+        height: 57.63px;
+        position: absolute;
+        left: 80px;
+        top: 392px;
+        color: #868686;
+        font-size: 13px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      
+      .forgot-password {
+        width: 125px;
+        height: 26px;
+        position: absolute;
+        left: 82px;
+        top: 581px;
+        color: #174B98;
+        font-size: 12px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      
+      .create-account {
+        width: 125px;
+        height: 26px;
+        position: absolute;
+        left: 80px;
+        top: 502px;
+        color: #868686;
+        font-size: 12px;
+        font-family: "Kailasa", sans-serif;
+        font-weight: 400;
+        word-wrap: break-word;
+      }
+      
+      .large-image {
+        width: 285px;
+        height: 284px;
+        position: absolute;
+        left: 63px;
+        top: 77px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: 10px solid rgba(204, 204, 204, 0.39);
+      }
+      
+      .small-image-left {
+        width: 40px;
+        height: 42px;
+        position: absolute;
+        left: 23px;
+        top: 18px;
+      }
+      
+      .small-image-right {
+        width: 47px;
+        height: 34px;
+        position: absolute;
+        left: 316px;
+        top: 434px;
+        border: 0.5px solid #174B98;
+      }
+      
+      .line {
+        width: 223px;
+        height: 0px;
+        position: absolute;
+        border: 0.5px solid #B7B7B7;
+      }
+      
+      .line-top {
+        top: 434px;
+        left: 80px;
+      }
+      
+      .line-bottom {
+        top: 476px;
+        left: 80px;
+      }
+      
+      .vertical-image {
+        width: 45px;
+        height: 153px;
+        position: absolute;
+        left: 348px;
+        top: 75px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="password">password</div>
+        <div class="username">username/alias</div>
+        <div class="forgot-password">forgot password?</div>
+        <div class="create-account">Create free account</div>
+        <img class="large-image" src="https://via.placeholder.com/285x284" alt="Large Placeholder" />
+        <img class="small-image-left" src="https://via.placeholder.com/40x42" alt="Small Placeholder Left" />
+        <img class="small-image-right" src="https://via.placeholder.com/47x34" alt="Small Placeholder Right" />
+        <div class="line line-top"></div>
+        <div class="line line-bottom"></div>
+        <img class="vertical-image" src="https://via.placeholder.com/45x153" alt="Vertical Placeholder" />
+    </div>
+</body>
+</html>
